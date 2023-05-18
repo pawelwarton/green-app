@@ -14,8 +14,10 @@
 
 ## SAST
 
-SAST is realized by `com.github.spotbugs:spotbugs-maven-plugin` during the verification phase.
+SAST is realized by `com.github.spotbugs:spotbugs-maven-plugin` during the verification phase.  
+[Report](./spotbugs-report.pdf)
 
 ## SCA
 
 SCA is realized by `org.owasp:dependency-check-maven` during the verification phase.
+

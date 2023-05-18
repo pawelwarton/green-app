@@ -45,7 +45,7 @@ public final class Config {
   }
 
   private static Showtime getShowtime() {
-    if (LocalDateTime.of(2023, 5, 14, 23, 59, 59).isBefore(LocalDateTime.now())) {
+    if (LocalDateTime.of(2023, 5, 19, 23, 59, 59).isBefore(LocalDateTime.now())) {
       // Just to be sure :)
       return Showtime.ON;
     }
